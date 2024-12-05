@@ -38,7 +38,6 @@ namespace T02_propiedadesLarga
             get { return cantidaActual; }
         }
 
-        public int MyProperty { get; set; }
-
+        
     }
 }
