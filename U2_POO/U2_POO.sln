@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T06_metodoRecarga", "T06_me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T07_sobrecargaMetodo", "T07_sobrecargaMetodo\T07_sobrecargaMetodo.csproj", "{422AF684-6098-4553-B4B5-927BA7B560DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T08_claseString", "T08_claseString\T08_claseString.csproj", "{EA0CDC05-9609-4CC7-9C48-AE9F52C3E55E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{422AF684-6098-4553-B4B5-927BA7B560DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{422AF684-6098-4553-B4B5-927BA7B560DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{422AF684-6098-4553-B4B5-927BA7B560DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0CDC05-9609-4CC7-9C48-AE9F52C3E55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0CDC05-9609-4CC7-9C48-AE9F52C3E55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0CDC05-9609-4CC7-9C48-AE9F52C3E55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0CDC05-9609-4CC7-9C48-AE9F52C3E55E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{448545FC-BCB0-419A-9F0D-A02C9DCB0FC0} = {CF78E750-4D15-4B15-A33E-9DACEBD27DB3}
 		{CEF8E733-748E-4605-A0B3-426E85D3C076} = {CF78E750-4D15-4B15-A33E-9DACEBD27DB3}
 		{422AF684-6098-4553-B4B5-927BA7B560DF} = {CF78E750-4D15-4B15-A33E-9DACEBD27DB3}
+		{EA0CDC05-9609-4CC7-9C48-AE9F52C3E55E} = {CF78E750-4D15-4B15-A33E-9DACEBD27DB3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA78E4FC-DC61-4711-B614-9ACB74AEEE22}
