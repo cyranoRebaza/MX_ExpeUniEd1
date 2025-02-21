@@ -51,16 +51,19 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(184, 54);
+            this.txtNombre.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtNombre.Location = new System.Drawing.Point(204, 54);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(260, 22);
+            this.txtNombre.Size = new System.Drawing.Size(366, 22);
             this.txtNombre.TabIndex = 0;
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(318, 432);
+            this.btnAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnAgregar.Location = new System.Drawing.Point(204, 630);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 34);
+            this.btnAgregar.Size = new System.Drawing.Size(75, 29);
             this.btnAgregar.TabIndex = 1;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -68,10 +71,13 @@
             // 
             // lwElementos
             // 
+            this.lwElementos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lwElementos.HideSelection = false;
-            this.lwElementos.Location = new System.Drawing.Point(54, 369);
+            this.lwElementos.Location = new System.Drawing.Point(204, 375);
             this.lwElementos.Name = "lwElementos";
-            this.lwElementos.Size = new System.Drawing.Size(258, 97);
+            this.lwElementos.Size = new System.Drawing.Size(473, 234);
             this.lwElementos.TabIndex = 2;
             this.lwElementos.UseCompatibleStateImageBehavior = false;
             this.lwElementos.View = System.Windows.Forms.View.List;
@@ -79,7 +85,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(61, 59);
+            this.lblNombre.Location = new System.Drawing.Point(106, 57);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(59, 16);
             this.lblNombre.TabIndex = 3;
@@ -88,7 +94,7 @@
             // lblFechaNacimiento
             // 
             this.lblFechaNacimiento.AutoSize = true;
-            this.lblFechaNacimiento.Location = new System.Drawing.Point(61, 101);
+            this.lblFechaNacimiento.Location = new System.Drawing.Point(49, 100);
             this.lblFechaNacimiento.Name = "lblFechaNacimiento";
             this.lblFechaNacimiento.Size = new System.Drawing.Size(116, 16);
             this.lblFechaNacimiento.TabIndex = 4;
@@ -96,15 +102,17 @@
             // 
             // dtpFechaNacimiento
             // 
-            this.dtpFechaNacimiento.Location = new System.Drawing.Point(184, 94);
+            this.dtpFechaNacimiento.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dtpFechaNacimiento.Location = new System.Drawing.Point(204, 94);
             this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
-            this.dtpFechaNacimiento.Size = new System.Drawing.Size(260, 22);
+            this.dtpFechaNacimiento.Size = new System.Drawing.Size(366, 22);
             this.dtpFechaNacimiento.TabIndex = 5;
             // 
             // ckbChocolate
             // 
             this.ckbChocolate.AutoSize = true;
-            this.ckbChocolate.Location = new System.Drawing.Point(184, 141);
+            this.ckbChocolate.Location = new System.Drawing.Point(204, 134);
             this.ckbChocolate.Name = "ckbChocolate";
             this.ckbChocolate.Size = new System.Drawing.Size(158, 20);
             this.ckbChocolate.TabIndex = 6;
@@ -113,9 +121,11 @@
             // 
             // lblTitulo
             // 
+            this.lblTitulo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(184, 13);
+            this.lblTitulo.Location = new System.Drawing.Point(363, 9);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(147, 25);
             this.lblTitulo.TabIndex = 7;
@@ -123,12 +133,13 @@
             // 
             // gbxTipo
             // 
+            this.gbxTipo.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.gbxTipo.Controls.Add(this.rbtSquibs);
             this.gbxTipo.Controls.Add(this.rbtMuggle);
             this.gbxTipo.Controls.Add(this.rbtWizard);
-            this.gbxTipo.Location = new System.Drawing.Point(64, 174);
+            this.gbxTipo.Location = new System.Drawing.Point(204, 174);
             this.gbxTipo.Name = "gbxTipo";
-            this.gbxTipo.Size = new System.Drawing.Size(525, 100);
+            this.gbxTipo.Size = new System.Drawing.Size(473, 100);
             this.gbxTipo.TabIndex = 8;
             this.gbxTipo.TabStop = false;
             this.gbxTipo.Text = "Tipo";
@@ -168,7 +179,7 @@
             // lblColor
             // 
             this.lblColor.AutoSize = true;
-            this.lblColor.Location = new System.Drawing.Point(61, 310);
+            this.lblColor.Location = new System.Drawing.Point(73, 307);
             this.lblColor.Name = "lblColor";
             this.lblColor.Size = new System.Drawing.Size(92, 16);
             this.lblColor.TabIndex = 9;
@@ -176,16 +187,18 @@
             // 
             // cboColorFavorito
             // 
+            this.cboColorFavorito.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cboColorFavorito.FormattingEnabled = true;
-            this.cboColorFavorito.Location = new System.Drawing.Point(159, 307);
+            this.cboColorFavorito.Location = new System.Drawing.Point(204, 307);
             this.cboColorFavorito.Name = "cboColorFavorito";
-            this.cboColorFavorito.Size = new System.Drawing.Size(153, 24);
+            this.cboColorFavorito.Size = new System.Drawing.Size(366, 24);
             this.cboColorFavorito.TabIndex = 10;
             // 
             // lblNumeroFavorito
             // 
             this.lblNumeroFavorito.AutoSize = true;
-            this.lblNumeroFavorito.Location = new System.Drawing.Point(334, 315);
+            this.lblNumeroFavorito.Location = new System.Drawing.Point(55, 339);
             this.lblNumeroFavorito.Name = "lblNumeroFavorito";
             this.lblNumeroFavorito.Size = new System.Drawing.Size(110, 16);
             this.lblNumeroFavorito.TabIndex = 11;
@@ -193,16 +206,23 @@
             // 
             // numNumeroFavorito
             // 
-            this.numNumeroFavorito.Location = new System.Drawing.Point(450, 310);
+            this.numNumeroFavorito.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.numNumeroFavorito.Location = new System.Drawing.Point(204, 337);
             this.numNumeroFavorito.Name = "numNumeroFavorito";
-            this.numNumeroFavorito.Size = new System.Drawing.Size(120, 22);
+            this.numNumeroFavorito.Size = new System.Drawing.Size(366, 22);
             this.numNumeroFavorito.TabIndex = 12;
             // 
             // btnVerPerfil
             // 
-            this.btnVerPerfil.Location = new System.Drawing.Point(450, 477);
+            this.btnVerPerfil.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnVerPerfil.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
+            this.btnVerPerfil.FlatAppearance.BorderSize = 2;
+            this.btnVerPerfil.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnVerPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVerPerfil.Location = new System.Drawing.Point(581, 627);
             this.btnVerPerfil.Name = "btnVerPerfil";
-            this.btnVerPerfil.Size = new System.Drawing.Size(96, 34);
+            this.btnVerPerfil.Size = new System.Drawing.Size(96, 39);
             this.btnVerPerfil.TabIndex = 13;
             this.btnVerPerfil.Text = "Ver Perfil";
             this.btnVerPerfil.UseVisualStyleBackColor = true;
@@ -212,7 +232,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(634, 536);
+            this.ClientSize = new System.Drawing.Size(847, 689);
             this.Controls.Add(this.btnVerPerfil);
             this.Controls.Add(this.numNumeroFavorito);
             this.Controls.Add(this.lblNumeroFavorito);
@@ -227,6 +247,8 @@
             this.Controls.Add(this.lwElementos);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.txtNombre);
+            this.MaximumSize = new System.Drawing.Size(865, 736);
+            this.MinimumSize = new System.Drawing.Size(836, 736);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
