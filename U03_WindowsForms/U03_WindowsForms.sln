@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF01_intro", "WF01_intro\WF01_intro.csproj", "{34687741-EE9E-4C0E-A301-3FE4E2F16CFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF02_controlesTernario", "WF02_controlesTernario\WF02_controlesTernario.csproj", "{1B013AE8-1D17-4C59-97F4-3278703E110E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{34687741-EE9E-4C0E-A301-3FE4E2F16CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34687741-EE9E-4C0E-A301-3FE4E2F16CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34687741-EE9E-4C0E-A301-3FE4E2F16CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B013AE8-1D17-4C59-97F4-3278703E110E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B013AE8-1D17-4C59-97F4-3278703E110E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B013AE8-1D17-4C59-97F4-3278703E110E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B013AE8-1D17-4C59-97F4-3278703E110E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
