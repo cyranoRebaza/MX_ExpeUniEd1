@@ -54,7 +54,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -105,9 +105,9 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsbPerfilPersona});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 30);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(800, 31);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -117,7 +117,7 @@
             this.tsbPerfilPersona.Image = ((System.Drawing.Image)(resources.GetObject("tsbPerfilPersona.Image")));
             this.tsbPerfilPersona.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbPerfilPersona.Name = "tsbPerfilPersona";
-            this.tsbPerfilPersona.Size = new System.Drawing.Size(29, 24);
+            this.tsbPerfilPersona.Size = new System.Drawing.Size(29, 28);
             this.tsbPerfilPersona.Text = "toolStripButton1";
             this.tsbPerfilPersona.ToolTipText = "Perfil Persona";
             this.tsbPerfilPersona.Click += new System.EventHandler(this.tsbPerfilPersona_Click);
@@ -147,10 +147,12 @@
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPrincipal";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
