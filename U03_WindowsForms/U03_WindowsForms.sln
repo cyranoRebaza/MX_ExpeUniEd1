@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF01_intro", "WF01_intro\WF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF02_controlesTernario", "WF02_controlesTernario\WF02_controlesTernario.csproj", "{1B013AE8-1D17-4C59-97F4-3278703E110E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF03_DateTime", "WF03_DateTime\WF03_DateTime.csproj", "{A8FC8DFA-48AD-4339-8830-39DBBEA2D04C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1B013AE8-1D17-4C59-97F4-3278703E110E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B013AE8-1D17-4C59-97F4-3278703E110E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B013AE8-1D17-4C59-97F4-3278703E110E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FC8DFA-48AD-4339-8830-39DBBEA2D04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FC8DFA-48AD-4339-8830-39DBBEA2D04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FC8DFA-48AD-4339-8830-39DBBEA2D04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FC8DFA-48AD-4339-8830-39DBBEA2D04C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
